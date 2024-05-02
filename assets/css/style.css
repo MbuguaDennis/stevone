@@ -3,4 +3,6 @@
 @import url("reset.css");
 h1{
     font-family: var(--Roboto);
+    color:var(--primary-orange);
+    border: 2px solid var(--primary-blue);
 }
