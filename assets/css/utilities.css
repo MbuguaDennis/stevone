@@ -1,0 +1,47 @@
+/* Website colors */
+:root{
+
+
+    /* /// --COLORS VARIABLES START --// */
+    
+    --primary-blue:#00008B; 
+    --secondary-blue1:#0045C2;
+    --twisted-blue:#66BAA8;
+    --secondary-blue2:#0072E0;
+    /* ------------------------- */
+    --grey-color1:#4A4453;
+    --gray-color2:#AFA8BA;
+    /* --------------------------- 
+        Orange colors 
+    */
+    --primary-orange:#FF6945;
+    --secondary-orange: #FA497D;
+    --bluefororange:#004F6F;
+    --grayfororange:#56423D;
+
+    /* 
+    /----------white color----------
+    */
+    --primary:white-color:#FFFFFF;
+    -secondary--white:#DADDE2;
+    --secondary-white1:#B1BDC5;
+    --greenforwhite:#005A34;
+    --grayforwhite:#474554;
+
+    /* black color pallete and code */
+    --primary-black:#000000;
+    --secondary-black1:#2A272A;
+    -secondary-black2:#303030;
+    --blueforblack:#00C9C8;
+    --grayforblack:#643B47;
+    --gray2forblack:#BDA5AB;
+    /* /// --COLORS VARIABLES END --// */
+
+    /* /// --FONTS VARIABLES START --// */
+
+    --opensans: "Open Sans", sans-serif;
+    --lato: "Lato", sans-serif;
+    --poppins: "Poppins", sans-serif;
+    --Roboto: "Roboto", sans-serif;
+}
+
