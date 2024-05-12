@@ -1,8 +1,40 @@
 /* import all css files */
-@import url("utilities.css");
-@import url("reset.css");
-h1{
-    font-family: var(--Roboto);
-    color:var(--primary-orange);
-    border: 2px solid var(--primary-blue);
-}
+@import url("./utilities.css");
+@import url("./reset.css");
+@import url("./breakpooints.css");
+/* header styling */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-family: var(--poppins);
+    background-color: var(--deep-blue-primary); /* Use deep blue color */
+    color: var(--white); /* Text color */
+    padding: 10px 0;
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .contact-info {
+    font-size: 14px;
+  }
+  
+  .phone,
+  .email {
+    margin-left: 20px;
+  }
+  

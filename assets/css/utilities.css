@@ -4,13 +4,6 @@
 
     /* /// --COLORS VARIABLES START --// */
     
-    --primary-blue:#00008B; 
-    --secondary-blue1:#0045C2;
-    --twisted-blue:#66BAA8;
-    --secondary-blue2:#0072E0;
-    /* ------------------------- */
-    --grey-color1:#4A4453;
-    --gray-color2:#AFA8BA;
     /* --------------------------- 
         Orange colors 
     */
@@ -22,19 +15,37 @@
     /* 
     /----------white color----------
     */
-    --primary:white-color:#FFFFFF;
-    -secondary--white:#DADDE2;
-    --secondary-white1:#B1BDC5;
-    --greenforwhite:#005A34;
-    --grayforwhite:#474554;
-
-    /* black color pallete and code */
-    --primary-black:#000000;
-    --secondary-black1:#2A272A;
-    -secondary-black2:#303030;
-    --blueforblack:#00C9C8;
-    --grayforblack:#643B47;
-    --gray2forblack:#BDA5AB;
+   
+    
+        /* Deep Blue */
+        --deep-blue-primary: #003366;   /* Main color for headers, buttons, and important elements */
+        --deep-blue-complimentary: #66CCFF;   /* Used for background or hover effects to provide contrast */
+        --deep-blue-secondary: #336699;   /* Used for borders, dividers, or secondary elements */
+        --deep-blue-accent: #99CCFF;   /* Used for highlighting, links, or call-to-action buttons */
+        
+        /* Dark Gray */
+        --dark-gray-primary: #333333;   /* Primary text color for readability */
+        --dark-gray-complimentary: #CCCCCC;   /* Used for backgrounds or subtle accents */
+        --dark-gray-secondary: #666666;   /* Used for borders, dividers, or secondary text */
+        --dark-gray-accent: #999999;   /* Used for form inputs, icons, or subtle highlights */
+        --dark-gray-background: #1F1F1F;   /* Alternate background color for sections or cards */
+        
+        /* Electric Yellow */
+        --electric-yellow-primary: #FFD700;   /* Used sparingly for attention-grabbing elements */
+        --electric-yellow-complimentary: #333300;   /* Used for buttons or icons to create contrast */
+        --electric-yellow-secondary: #FFA500;   /* Used for warning messages or alerts */
+        --electric-yellow-accent: #FFFF00;   /* Used for highlights, badges, or active states */
+        
+        /* Red */
+        --red-primary: #990000;   /* Used for error messages, alerts, or important notifications */
+        --red-complimentary: #FF6666;   /* Used for hover effects or subtle accents */
+        --red-secondary: #CC3333;   /* Used for buttons, links, or icons to indicate urgency */
+        --red-accent: #FF0000;   /* Used for critical actions, such as delete or cancel */
+        
+        /* White */
+        --white: #FFFFFF;   /* Main background color */
+      
+      
     /* /// --COLORS VARIABLES END --// */
 
     /* /// --FONTS VARIABLES START --// */
